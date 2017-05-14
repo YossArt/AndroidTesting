@@ -1,0 +1,35 @@
+<!-------------------------------------------------------------->
+<!-- Coder : Mohamed Youef                                    -->
+<!-- Application : jQuery Example                             -->
+<!-- Date : 8 / 7 / 2015                                      -->
+<!-------------------------------------------------------------->
+<!--  Copyrights(C)2010 - 2015 AGASHE , All rights reserved   -->
+<!-------------------------------------------------------------->
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- <script src="../jq lib/jquery-1.10.0.min.js"></script>	-->	
+<script>
+$(document).ready(function(){
+$("#btn1").click(function(){
+$("p").remove("#txt");
+});
+$("#btn2").click(function(){
+$("ul").empty();
+});
+});
+</script>
+</head>
+<body>
+<button id="btn1">Remove p</button>
+<button id="btn2">Remove ul</button>
+<ul>
+<li>some text</li>
+<li>some text</li>
+<li>some text</li>
+<li>some text</li>
+</ul>
+<p id="txt">some text </p>
+<p>another text </p>
+</body>
+</html>

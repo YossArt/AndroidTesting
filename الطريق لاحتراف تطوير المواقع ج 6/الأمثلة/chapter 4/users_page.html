@@ -1,0 +1,17 @@
+<html>
+<body>
+	<p id="username"></p>
+	<p id="password"></p>
+	<p id="email"></p>
+	<script>
+	xmlhttp = new XMLHttpRequest();
+	xmlhttp.open("GET","users_data.xml",false);
+	xmlhttp.send();
+	doc = xmlhttp.responseXML;
+	
+	document.getElementById("username").innerHTML = doc.getElementsByTagName("username")[0].childNodes[0].nodeValue;
+	document.getElementById("password").innerHTML = doc.getElementsByTagName("password")[0].childNodes[0].nodeValue; 
+	document.getElementById("email").innerHTML = doc.getElementsByTagName("email")[0].childNodes[0].nodeValue;
+	</script>
+</body>
+</html>

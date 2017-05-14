@@ -1,0 +1,6 @@
+<!DOCTYPE message [
+<!ELEMENT message (from, to, msg_content)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT msg_content (#PCDATA)>
+]>

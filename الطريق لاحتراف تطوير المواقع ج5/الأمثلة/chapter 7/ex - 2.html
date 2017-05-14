@@ -1,0 +1,32 @@
+<!-------------------------------------------------------------->
+<!-- Coder : Mohamed Youef                                    -->
+<!-- Application : jQuery Example                             -->
+<!-- Date : 8 / 7 / 2015                                      -->
+<!-------------------------------------------------------------->
+<!--  Copyrights(C)2010 - 2015 AGASHE , All rights reserved   -->
+<!-------------------------------------------------------------->
+<html>
+<head>
+<style type="text/css">
+.txt{
+color:red;
+}
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>	
+<!-- <script src="../jq lib/jquery-1.10.0.min.js"></script>	-->
+<script>
+$(document).ready(function(){
+var element = "<p>new p element</p>";
+$("#btn").click(function(){
+$(".txt").before(element);
+});
+});
+</script>
+</head>
+<body>
+<button id="btn">Add text</button>
+<p class="txt">some text</p>
+<a class="txt" href="#">some text</a>
+<h3 class="txt">some text</h3>
+</body>
+</html>

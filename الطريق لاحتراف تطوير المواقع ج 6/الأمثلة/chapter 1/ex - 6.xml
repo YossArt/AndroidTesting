@@ -1,0 +1,17 @@
+<?xml   version="1.0"  encoding="utf-8"?>
+<x:table   xmlns:x="www.abc.com/pages">
+	<x:tr>
+		<x:td>pages</x:td>
+	</x:tr>
+	<x:tr>
+		<x:td>links</x:td>
+	</x:tr>
+</x:table>
+
+<y:table  xmlns:y="www.abc.com/furniture">
+<y:color>brown</y:color>
+<y:width>1.1m</y:width>
+<y:height>1.3m</y:height>
+<y:length>1.2</y:length>
+</y:table>
+

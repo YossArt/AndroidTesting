@@ -1,0 +1,16 @@
+car{
+border:2px solid #000;
+display:block;
+width:250px;
+height:150px;
+margin:10px;
+padding:5px;
+}
+manufactory ,  model_year  ,  engine_hp  ,  price{
+display:block;
+Font-size:16pt;
+Font-weight:bold;
+Color:blue;
+margin-bottom:30px;
+line-height:0.5;
+}

@@ -1,0 +1,22 @@
+<?xml   version="1.0"  encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<motor_show>
+	<car>
+		<manufactory>skoda</manufactory>
+		<model_year>2011</model_year>
+		<engine_hp>60hp</engine_hp>
+		<price>11,500$</price>
+	</car>
+	<car>
+		<manufactory>nissan</manufactory>
+		<model_year>2013</model_year>
+		<engine_hp>80hp</engine_hp>
+		<price>14,000$</price>
+	</car>
+	<car>
+		<manufactory>kia</manufactory>
+		<model_year>2014</model_year>
+		<engine_hp>136hp</engine_hp>
+		<price>36,000$</price>
+	</car>
+</motor_show>

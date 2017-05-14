@@ -1,0 +1,35 @@
+<!-------------------------------------------------------------->
+<!-- Coder : Mohamed Youef                                    -->
+<!-- Application : jQuery Example                             -->
+<!-- Date : 8 / 7 / 2015                                      -->
+<!-------------------------------------------------------------->
+<!--  Copyrights(C)2010 - 2015 AGASHE , All rights reserved   -->
+<!-------------------------------------------------------------->
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- <script src="../jq lib/jquery-1.10.0.min.js"></script>	-->	
+<script>
+$(document).ready(function(){
+$("#a").click(function(){
+$("#a").hide(500);
+});
+$("#b").dblclick(function(){
+$("#b").hide(500);
+});
+$("#c").mouseenter(function(){
+$("#c").hide(500);
+});
+$("#d").mouseleave(function(){
+$("#d").hide(500);
+});
+});
+</script>
+</head>
+<body>
+<p id="a">Hello World 1</p>
+<p id="b">Hello World 2</p>
+<p id="c">Hello World 3</p>
+<p id="d">Hello World 4</p>
+</body>
+</html>

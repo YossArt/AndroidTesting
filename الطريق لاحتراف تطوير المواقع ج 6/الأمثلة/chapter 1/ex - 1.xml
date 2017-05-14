@@ -1,0 +1,17 @@
+<?xml   version="1.0"  encoding="utf-8"?>
+<page>
+	<header>
+		<logo>images/smile.gif</logo>
+<nav>
+	<button>home</button>
+	<button>articles</button>
+	<button>contact</button>
+</nav>
+	</header>
+<container>
+		<article>hello world ! </article>
+	</container>
+	<footer>
+		<text>thank you</text>
+</footer>
+</page>

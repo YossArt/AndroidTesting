@@ -1,0 +1,40 @@
+<!-------------------------------------------------------------->
+<!-- Coder : Mohamed Youef                                    -->
+<!-- Application : jQuery Example                             -->
+<!-- Date : 8 / 7 / 2015                                      -->
+<!-------------------------------------------------------------->
+<!--  Copyrights(C)2010 - 2015 AGASHE , All rights reserved   -->
+<!-------------------------------------------------------------->
+<html>
+<head>
+<style>
+#btn{
+height:20px;
+width:200px;
+background-color:red;
+text-align:center;
+}
+
+#note{
+padding-top:20px;
+height:80px;
+width:200px;
+background-color:blue;
+text-align:center;
+}
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>	
+<!-- <script src="../jq lib/jquery-1.10.0.min.js"></script>	-->
+<script>
+$(document).ready(function(){
+$("#btn").click(function(){
+$("#note").fadeToggle("slow");
+});
+});
+</script>
+</head>
+<body>
+<div id="btn"><p>Click</p></div>
+<div id="note"><p>Notafication</p></div>
+</body>
+</html>

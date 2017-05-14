@@ -1,0 +1,44 @@
+<!-------------------------------------------------------------->
+<!-- Coder : Mohamed Youef                                    -->
+<!-- Application : jQuery Example                             -->
+<!-- Date : 8 / 7 / 2015                                      -->
+<!-------------------------------------------------------------->
+<!--  Copyrights(C)2010 - 2015 AGASHE , All rights reserved   -->
+<!-------------------------------------------------------------->
+<html>
+<head>
+<style>
+#btn-start , #btn-stop{
+height:20px;
+width:200px;
+background-color:red;
+text-align:center;
+}
+
+#note{
+padding-top:20px;
+height:80px;
+width:200px;
+background-color:blue;
+text-align:center;
+}
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>	
+<!-- <script src="../jq lib/jquery-1.10.0.min.js"></script>	-->
+<script>
+$(document).ready(function(){
+$("#btn-start").click(function(){
+$("#note").animate({width:'+=250px',height:'+=250'},3000);
+});
+$("#btn-stop").click(function(){
+$("#note").stop();
+});
+});
+</script>
+</head>
+<body>
+<div id="btn-start"><p>Start</p></div>
+<div id="btn-stop"><p>Stop</p></div>
+<div id="note"><p>Notafication</p></div>
+</body>
+</html>
